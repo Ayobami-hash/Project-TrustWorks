@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Ensure the dropdown is not disfigured */
+.rs-picker-select-menu {
+    border: 1px solid #ccc;
+  }
